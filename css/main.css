@@ -1,0 +1,404 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --white: #fff;
+    --brand-green: #00856F;
+    --purple: #60267F;
+}
+.flex {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
+.fontRoboto {
+    font-family: "Roboto", sans-serif;
+}
+.flexColumn {
+ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+.topline {
+    background-color: var(--purple);
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding: 5px 0;
+}
+.headerTwo {
+    font-size: 3rem;
+    color: black;
+
+}
+.topLineSpan {
+    text-decoration: underline;
+}
+.headerContainer {
+    display: flex;
+    align-content: center;
+    justify-content:  space-between;
+    padding: 15px 10px 15px 30px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.086);
+    
+}
+.headerUl {
+    display: flex;
+    gap: 20px;
+
+}
+
+.navigationContainer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.headerList {
+    list-style: none;
+}
+.headerList a {
+    text-decoration: none;
+    color: #2B0236;
+
+}
+
+.headerbtn {
+    padding: 5px 8px;
+    background: none;
+    border: #9a54bc 1px solid;
+    border-radius: 5px;
+    color: #9a54bc;
+    font-size: 11px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+} 
+.headerbtn:hover {
+    background-color: #9a54bc;
+    color: white;
+}
+
+
+.section1 {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 100px;
+
+}
+
+.headingContainer {
+text-align: center; 
+gap: 50px; 
+   
+}
+
+.heading {
+font-size: 3rem;
+color: #2B0236;
+
+
+
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+
+.headingBtn {
+    padding: 20px 32px;
+    background-color: #9a54bc;
+    color: white;
+    border: 1px solid #9a54bc;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+.headingBtn:hover {
+    background-color: white;
+    color: #9a54bc;
+}
+.firstPhoneContainer {
+
+    height: 500px;
+  
+
+}
+
+
+
+.smallElipse {
+top: 85px;
+}
+
+.rectangle {
+    top: 65px;
+
+}
+
+.colabword {
+top: 175px;
+
+}
+.eclipseBtn {
+    bottom: 110px;
+    width: 140px;
+    padding: 10px 15px;
+    color: #60267F;
+    border: 2px solid #9a54bc;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.1s ease-in;}
+
+.topBrandsContainer {
+    margin-top: 100px;
+    gap: 50px;
+
+}
+.iconsContainer {
+    gap: 150px;
+}
+
+.iconsContainer img {
+    width: 100px;
+}
+.collabAppHelpContainer {
+    margin-top: 100px;
+    gap: 75px;
+}
+
+.leftparaContainer {
+    width: 40%;
+}
+.buttonContainer {
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 2px;
+    gap: 5px;
+}
+.mainContainer {
+    justify-content: space-between;
+}
+.buttonContainer button:hover {
+    
+    border: 2px solid #9a54bc;
+    background-color: var(--purple);
+    color: white;
+    
+}
+.buttonContainer button {
+    background-color: transparent;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    -webkit-box-shadow: 0px 11px 10px -14px #000000; 
+    box-shadow: 0px 11px 10px -14px #000000;
+
+}
+.paraContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+.paraContainer p {
+    background-color: #f2f2f2;
+    padding: 1rem;
+}
+.paraContainer p span {
+    font-weight: 700;
+}
+.rightImgContainer {
+    width: 55%;
+    padding-top: 70px;
+   
+}
+.rightImgContainer img {
+    width: 300px;
+    
+}
+
+#nau {
+    width: 215px;
+}
+
+.bugetContainer {
+    margin-top: 100px;
+  
+  
+    gap: 30px;
+}
+.bugetContainer p {
+    font-size: 24px;
+    text-align: center;
+}
+.projectsDoneContainer {
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.projectDoneCardsContainer {
+    width: 80%;
+    justify-content: space-evenly;
+}
+.card {
+    align-items: flex-start;
+    gap: 30px;
+
+}
+.card>span {
+    margin-left: 20px;
+}
+.card img { 
+    width: 300px;
+
+}
+
+.projectDoneCardHeader {
+    color: #60267F;
+    font-weight: 500;
+}
+
+
+
+
+.bigCardsContainer {
+    gap: 20px;
+    margin-top: 200px;
+}
+.bigCardsContainerpara {
+    color: #a79d9d;
+    font-size: 12px;
+}
+
+
+.mounthlyYearlyContainer {
+    gap: 10px;
+    margin-top: 30px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.monthly {
+    color: #a79d9d;
+}
+
+
+.yearly {
+    font-weight: 500;
+}
+
+.discount {
+    background-color: #ffe87a;
+    font-size: 10px;
+    padding: 2px;
+
+}
+
+.threeBigCardContainer {
+    gap: 50px;
+}
+.bigCard {
+width: 250px;
+height: 450px;
+border: 0.5px solid #AAAAAA;
+padding: 20px 30px;
+display: flex;
+gap: 2rem;
+flex-direction: column;
+border-radius: 7px;
+}
+.bigCard p {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.bigCard button {
+    padding: 15px 20px;
+    background-color: var(--white);
+    border: 2px solid #2B0236;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.bigCard button:hover {
+    background-color: #2B0236;
+    color: var(--white);
+    
+}
+
+.aaa {
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.aaa li::marker {
+    content:"▶" ;
+}
+
+.aaa li {
+    padding: 0 0 0 10px;
+    font-size: 12px;
+}
+.cardThree {
+    background-color: #56e6a5;
+}
+.cardThree .cardThreePara {
+    color: rgba 0 0 0 0.7;
+    font-size: 12px;
+}
+
+/* Komandine uzduotis */
+/* stars */
+.starsContainer {
+    gap: 60px;
+    margin-top: 150px;
+}
+.commentArrows {
+    gap: 80px;
+    width: 50%;
+    text-align: center;
+    font-weight: 500;
+}
+.starsFacezone {
+    gap: 5px;
+}
+.starsPara {
+    font-size: 14px;
+}
+/* zemelapis*/
+.mapContainer {
+    gap: 100px;
+    margin-top: 0;
+    background-color: #E2BDF21C;
+    ;
+}
+.questionZone {
+    gap: 40px;
+}
+.questionZone p {
+    font-weight: 500;
+}
+.mapContainerH2 {margin-bottom: 30px;}
+
